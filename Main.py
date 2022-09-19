@@ -4,8 +4,8 @@ def display_hash(hashtable) -> None:
 	# Write your code here
 	for i in range(len(hashtable)):
 		print(i,end='')
-		if hashtable[0]%len(hashtable) == i:
-			print(' -->', i[1],end="")
+		if hashtable[i][0]%len(hashtable) == i:
+			print(' -->', hashtable[i][1],end="")
 	print()
 
 def Hashing(keyvalue) -> int:
