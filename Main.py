@@ -15,7 +15,7 @@ def Hashing(keyvalue) -> int:
 def insert(Hashtable, keyvalue, value) -> None:
 	# Write your code here
 	index = Hashing(keyvalue)
-    HashTable[index] = [keyvalue, value]
+    	HashTable[index] = [keyvalue, value]
 
 
 # Do not edit the following code
